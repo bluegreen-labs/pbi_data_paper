@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: copernicus.bst
+Database file #1: bibliography.bib
+Warning--I didn't find a database entry for "ceballos2019"
+Warning--I didn't find a database entry for "hufkens2012"
+Warning--empty journal in ceballos2017
+You've used 39 entries,
+            2811 wiz_defined-function locations,
+            1284 strings with 19191 characters,
+and the built_in function-call counts, 35100 in all, are:
+= -- 3804
+> -- 1392
+< -- 21
++ -- 623
+- -- 432
+* -- 2359
+:= -- 3672
+add.period$ -- 39
+call.type$ -- 39
+change.case$ -- 227
+chr.to.int$ -- 39
+cite$ -- 118
+duplicate$ -- 3457
+empty$ -- 1880
+format.name$ -- 540
+if$ -- 6928
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 402
+newline$ -- 126
+num.names$ -- 157
+pop$ -- 1433
+preamble$ -- 1
+purify$ -- 221
+quote$ -- 0
+skip$ -- 1916
+stack$ -- 0
+substring$ -- 1380
+swap$ -- 2853
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 348
+warning$ -- 1
+while$ -- 193
+width$ -- 0
+write$ -- 493
+(There were 3 warnings)

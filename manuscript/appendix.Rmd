@@ -1,0 +1,74 @@
+---
+header-includes:
+  - \usepackage{setspace}
+  - \usepackage{lineno}
+  - \usepackage[width=\textwidth]{caption}
+output:
+  pdf_document:
+    fig_caption: yes
+    keep_tex: yes
+    number_sections: no
+classoption: landscape
+---
+
+```{r setup, include=FALSE, message=FALSE}
+  knitr::opts_chunk$set(echo = TRUE)
+  library(tidyverse)
+  library(ggplot2)
+  library(ggthemes)
+  library(knitr)
+  library(kableExtra)
+  
+  # set kable NA values to blank
+  options(knitr.kable.NA = '-')
+  
+  master_file <- readODS::read_ods("tables/pbi_master_image_stats_meta_data.ods", col_names = FALSE)
+  
+  summary_file <- readODS::read_ods("tables/pbi_summary_stats_meta_data.ods", col_names = FALSE)
+  
+  time_series_file <- readODS::read_ods("tables/pbi_summary_time_series_meta_data.ods", col_names = FALSE)
+```
+
+# Appendix
+
+## Data descriptors
+
+```{r echo = FALSE, eval = TRUE}
+master_file %>%
+  kable(
+    caption="Master database column entries (pbi_master_image_stats.csv). We report the label used as provided in the dataset (csv file) and a brief description of the data represented in the table column.",
+    booktabs = TRUE,
+    longtable = TRUE,
+    #escape = FALSE,
+    col.names = c(
+         "label",
+         "description")) %>%
+kable_styling(latex_options = c("hold_position", "repeat_header"))
+```
+
+```{r echo = FALSE, eval = TRUE}
+summary_file %>%
+  kable(
+    caption="Derivated summary database (pbi_summary_stats.csv) column entries. We report the label used as provided in the summary dataset (csv file) and a brief description of the data represented in the table column.",
+    booktabs = TRUE,
+    longtable = TRUE,
+    #escape = FALSE,
+    col.names = c(
+         "label",
+         "description")) %>%
+kable_styling(latex_options = c("hold_position", "repeat_header"))
+```
+
+
+```{r echo = FALSE, eval = TRUE}
+time_series_file %>%
+  kable(
+    caption="Derivated time series summary (pbi_summary_time_series.csv) database column entries. We report the label used as provided in the time series summary dataset (csv file) and a brief description of the data represented in the table column. The time series summary data can be merged with the summary dataset for quality control.",
+    booktabs = TRUE,
+    longtable = TRUE,
+    #escape = FALSE,
+    col.names = c(
+         "label",
+         "description")) %>%
+kable_styling(latex_options = c("hold_position", "repeat_header"))
+```

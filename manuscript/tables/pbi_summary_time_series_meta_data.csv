@@ -1,0 +1,16 @@
+x
+1,project_id
+2,spatial_unit
+3,spatial_location
+4,lat
+5,lon
+6,rising
+7,falling
+8,rising_lower_ci
+9,rising_upper_ci
+10,falling_lower_ci
+11,falling_upper_ci
+12,date
+13,smooth_gcc_90
+14,smooth_gcc_90_lower_ci
+15,smooth_gcc_90_upper_ci

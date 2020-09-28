@@ -1,0 +1,306 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  landscape]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{setspace}
+\usepackage{lineno}
+\usepackage[width=\textwidth]{caption}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\hypertarget{appendix}{%
+\section{Appendix}\label{appendix}}
+
+\hypertarget{data-descriptors}{%
+\subsection{Data descriptors}\label{data-descriptors}}
+
+\textbackslash begin\{longtable\}{[}t{]}\{ll\}
+\textbackslash caption\{\label{tab:unnamed-chunk-1}Master database
+column entries (pbi\_master\_image\_stats.csv). We report the label used
+as provided in the dataset (csv file) and a brief description of the
+data represented in the table column.\}\textbackslash{} \toprule label
+\& description\textbackslash{} \midrule \endfirsthead
+\textbackslash caption{[}{]}\{Master database column entries
+(pbi\_master\_image\_stats.csv). We report the label used as provided in
+the dataset (csv file) and a brief description of the data represented
+in the table column. \textit{(continued)}\}\textbackslash{} \toprule
+label \& description\textbackslash{} \midrule \endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+
+report\_id \& unique image based identifier (assigned per
+season)\textbackslash{} farmer \& unique farmer id
+number\textbackslash{} project\_id \& project id number (1 fand 2 for
+the first and second growing season respectively)\textbackslash{} field
+\& field id number (when multiple fields are acquired by a
+farmer)\textbackslash{} site \& unique site id\textbackslash{}
+\addlinespace season\_id \& season id -- defined as
+year\_month-of-first-sowing\textbackslash{} lat \& decimal
+latitude\textbackslash{} lon \& decimal longitude\textbackslash{} date
+\& date of image acquisition (YYYY-MM-DD)\textbackslash{} time \& time
+of image acquisition (HH:MM:SS)\textbackslash{} \addlinespace image \&
+filename of the image as provided in the provided image
+dataset\textbackslash{} r\_dn \& red digital number\textbackslash{}
+g\_dn \& green digital number\textbackslash{} b\_dn \& blue digital
+number\textbackslash{} rcc\_90 \& 90th percentile of the red chromatic
+coordinate\textbackslash{} \addlinespace gcc\_90 \& 90th percentile of
+the green chromatic coordinate\textbackslash{} smooth\_gcc\_90 \&
+smoothed and normalized estimates of field based Gcc
+values\textbackslash{} grvi\_10 \& 10th percentile of the green red
+vegetation index\textbackslash{} spatial\_location \& the spatial
+location, either a town name or a grid cell index number\textbackslash{}
+spatial\_unit \& the spatial aggregation used, either\textbackslash{}
+\addlinespace growth\_stage \& wheat growth stage as assigned by human
+experts\textbackslash{} lodging\_labels \& lodging labels as assigned by
+human experts\textbackslash{} seed\_variety \& farmer reported seed
+variety\textbackslash{} dam\_rain \& farmer reported rain
+damage\textbackslash{} dam\_hail \& farmer reported hail
+damage\textbackslash{} \addlinespace dam\_high\_temp \& farmer reported
+temperature damage (heat)\textbackslash{} dam\_low\_temp \& farmer
+reported temperature damage (cold)\textbackslash{} dam\_pest \& farmer
+reported pest\textbackslash{} dam\_lodging \& farmer reported
+lodging\textbackslash{} dam\_wildlife \& farmer reported wildlife
+damages\textbackslash{} \addlinespace dam\_fire \& farmer reported fire
+damages\textbackslash{} dam\_unclassified \& farmer reported damages,
+unclassified\textbackslash{} man\_harvest \& farmer reported management,
+harvest\textbackslash{} man\_irrigate \& farmer reported
+irrigation\textbackslash{} man\_till \& farmer reported
+tilling\textbackslash{} \addlinespace man\_sow \& farmer reported
+sowing\textbackslash{} man\_weed \& farmer reported
+weeding\textbackslash{} man\_urea\_kg\_acre \& farmer reported
+application of urea (kg / acre)\textbackslash{} man\_dap\_kg\_acre \&
+farmer reported application of dap (kg / acre)\textbackslash{}
+man\_potash\_kg\_acre \& farmer reported application of potash (kg /
+acre)\textbackslash{} \addlinespace man\_zinc\_kg\_acre \& farmer
+reported application of zinc (kg / acre)\textbackslash{}
+man\_fungicide\_kg\_acre \& farmer reported application of fungicide (kg
+/ acre)\textbackslash{} man\_herbicide\_kg\_acre \& farmer reported
+application of herbicide (kg / acre)\textbackslash{}
+man\_pesticide\_kg\_acre \& farmer reported application of pesticide (kg
+/ acre)\textbackslash{} man\_unclassified \& unclassified management
+intervention\textbackslash{} \addlinespace soil\_type \& soil type
+(loam,clay loam,loam sandy,clay or sandy)\textbackslash{} drainage \&
+soil drainage (good or poor)\textbackslash{} sowing\_date \& date of
+sowing (YYYY-MM-DD)\textbackslash{} harvest\_quantity \& harvest
+quantity from crop cutting ()\textbackslash{} yield\_expectation \&
+farmer estimated yield at time of assessment ()\textbackslash{}
+\addlinespace duration \& duration of the growing season (based upon
+acquired image data)\textbackslash{} nr\_values \& nr of processed
+images\textbackslash{} spread \& mean time difference between
+images\textbackslash{} qa \& ratio of the nr of values (images) and
+their spread\textbackslash* \textbackslash end\{longtable\}
+
+\textbackslash begin\{longtable\}{[}t{]}\{ll\}
+\textbackslash caption\{\label{tab:unnamed-chunk-2}Derivated summary
+database (pbi\_summary\_stats.csv) column entries. We report the label
+used as provided in the summary dataset (csv file) and a brief
+description of the data represented in the table
+column.\}\textbackslash{} \toprule label \& description\textbackslash{}
+\midrule \endfirsthead \textbackslash caption{[}{]}\{Derivated summary
+database (pbi\_summary\_stats.csv) column entries. We report the label
+used as provided in the summary dataset (csv file) and a brief
+description of the data represented in the table column.
+\textit{(continued)}\}\textbackslash{} \toprule label \&
+description\textbackslash{} \midrule \endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+
+project\_id \& project id number (1 fand 2 for the first and second
+growing season respectively)\textbackslash{} spatial\_unit \& the
+spatial aggregation used, either\textbackslash{} spatial\_location \&
+the spatial location, either a town name or a grid cell index
+number\textbackslash{} lat \& decimal latitude\textbackslash{} lon \&
+decimal longitude\textbackslash{} \addlinespace nr\_fields \& number of
+fields in a region\textbackslash{} nr\_farmers \& number of farmers in a
+region\textbackslash{} man\_mean\_date \& mean manipulation date (across
+all interventions)\textbackslash{} man\_sd\_date \& standard deviation
+of the manipulation date (across all interventions)\textbackslash{}
+nr\_fields\_irrigated \& number of fields irrigated\textbackslash{}
+\addlinespace nr\_fields\_weeded \& number of fields
+weeded\textbackslash{} nr\_fields\_tilled \& number of fields
+tilled\textbackslash{} nr\_fields\_sowed \& number of fields
+sowed\textbackslash{} nr\_fields\_harvested \& number of fields
+harvested\textbackslash{} nr\_fields\_urea \& number of fields on which
+urea was applied\textbackslash{} \addlinespace nr\_fields\_dap \& number
+of fields on which dap was applied\textbackslash{} nr\_fields\_potash \&
+number of fields on which potash was applied\textbackslash{}
+nr\_fields\_zinc \& number of fields on which zinc was
+applied\textbackslash{} nr\_fields\_fungicide \& number of fields on
+which fungicide was applied\textbackslash{} nr\_fields\_herbicide \&
+number of fields on which herbicide was applied\textbackslash{}
+\addlinespace nr\_fields\_pesticide \& number of fields on which
+pesticide was applied\textbackslash{} mean\_urea\_kg\_acre \& mean urea
+applied across the region (kg / acre)\textbackslash{} sd\_urea\_kg\_acre
+\& standard deviation on the mean urea applied across the region (kg /
+acre)\textbackslash{} mean\_dap\_kg\_acre \& mean urea applied across
+the region (kg / acre)\textbackslash{} sd\_dap\_kg\_acre \& standard
+deviation on the mean urea applied across the region (kg /
+acre)\textbackslash{} \addlinespace mean\_potash\_kg\_acre \& mean urea
+applied across the region (kg / acre)\textbackslash{}
+sd\_potash\_kg\_acre \& standard deviation on the mean urea applied
+across the region (kg / acre)\textbackslash{} mean\_zinc\_kg\_acre \&
+mean urea applied across the region (kg / acre)\textbackslash{}
+sd\_zinc\_kg\_acre \& standard deviation on the mean urea applied across
+the region (kg / acre)\textbackslash{} mean\_fungicide\_kg\_acre \& mean
+urea applied across the region (kg / acre)\textbackslash{} \addlinespace
+sd\_fungicide\_kg\_acre \& standard deviation on the mean urea applied
+across the region (kg / acre)\textbackslash{} mean\_herbicide\_kg\_acre
+\& mean urea applied across the region (kg / acre)\textbackslash{}
+sd\_herbicide\_kg\_acre \& standard deviation on the mean urea applied
+across the region (kg / acre)\textbackslash{} dam\_mean\_date \& mean
+date of sustained damage (across all classes)\textbackslash{}
+dam\_sd\_date \& standard deviation on the mean date of sustained damage
+(across all classes, in days)\textbackslash{} \addlinespace
+nr\_fields\_dam\_rain \& number of fields damaged by
+rain\textbackslash{} nr\_fields\_dam\_hail \& number of fields damaged
+by hail\textbackslash{} nr\_fields\_dam\_high\_temp \& number of fields
+damaged by high temperature\textbackslash{} nr\_fields\_dam\_low\_temp
+\& number of fields damaged by low temperature\textbackslash{}
+nr\_fields\_dam\_pest \& number of fields damaged by
+pests\textbackslash{} \addlinespace nr\_fields\_dam\_lodging \& number
+of fields damaged by lodging\textbackslash{} nr\_fields\_dam\_wildlife
+\& number of fields damaged by wildlife\textbackslash{}
+nr\_fields\_dam\_fire \& number of fields damaged by
+fire\textbackslash{} nr\_fields\_dam\_unclassified \& number of fields
+with unclassified damage\textbackslash{} mean\_qa \& mean quality
+assurance value\textbackslash{} \addlinespace mean\_spread \& mean time
+difference between images across a region\textbackslash{}
+mean\_nr\_values \& mean nr of processed images per field across a
+region\textbackslash{} total\_nr\_values \& mean total number of images
+per field across a region\textbackslash{} mean\_duration \& mean
+duration of the season per field across a region (in
+days)\textbackslash{} mean\_sowing\_date \& mean sowing date by field
+across a region (YYYY-MM-DD)\textbackslash{} \addlinespace
+sd\_sowing\_date \& standard deviation of the sowing date by field
+across a region (in days)\textbackslash{} rising \& phenophase of the
+rising part of greenness curve (73\% threshold, tillering phase, in
+YYYY-MM-DD)\textbackslash{} falling \& phenophase of the falling part of
+greenness curve (83\% threshold, heading phase, in
+YYYY-MM-DD)\textbackslash{} rising\_lower\_ci \& phenophase confidence
+intervals (YYYY-MM-DD)\textbackslash{} rising\_upper\_ci \& phenophase
+confidence intervals (YYYY-MM-DD)\textbackslash{} \addlinespace
+falling\_lower\_ci \& phenophase confidence intervals
+(YYYY-MM-DD)\textbackslash{} falling\_upper\_ci \& phenophase confidence
+intervals (YYYY-MM-DD)\textbackslash* \textbackslash end\{longtable\}
+
+\textbackslash begin\{longtable\}{[}t{]}\{ll\}
+\textbackslash caption\{\label{tab:unnamed-chunk-3}Derivated time series
+summary (pbi\_summary\_time\_series.csv) database column entries. We
+report the label used as provided in the time series summary dataset
+(csv file) and a brief description of the data represented in the table
+column. The time series summary data can be merged with the summary
+dataset for quality control.\}\textbackslash{} \toprule label \&
+description\textbackslash{} \midrule \endfirsthead
+\textbackslash caption{[}{]}\{Derivated time series summary
+(pbi\_summary\_time\_series.csv) database column entries. We report the
+label used as provided in the time series summary dataset (csv file) and
+a brief description of the data represented in the table column. The
+time series summary data can be merged with the summary dataset for
+quality control. \textit{(continued)}\}\textbackslash{} \toprule label
+\& description\textbackslash{} \midrule \endhead
+
+\endfoot
+\bottomrule
+\endlastfoot
+
+project\_id \& project id number (1 fand 2 for the first and second
+growing season respectively)\textbackslash{} spatial\_unit \& the
+spatial aggregation used, either GADM or WorldClim 2.5 or 5 degree
+units\textbackslash{} spatial\_location \& the spatial location, either
+a town name or a grid cell index number\textbackslash{} lat \& decimal
+latitude\textbackslash{} lon \& decimal longitude\textbackslash{}
+\addlinespace date \& date of reported Gcc values
+(YYYY-MM-DD)\textbackslash{} smooth\_gcc\_90 \& Normalized and smoothed
+Gcc for a given spatial unit and spatial location\textbackslash{}
+smooth\_gcc\_90\_lower\_ci \& Lower confidence interval of the
+normalized and smoothed Gcc\textbackslash{} smooth\_gcc\_90\_upper\_ci
+\& Upper confidence interval of the normalized and smoothed
+Gcc\textbackslash{} rising \& transition date (at 73\% threshold) of the
+rising part of the normalized and smoothed Gcc curve (per spatial
+location)\textbackslash{} \addlinespace falling \& transition date (at
+83\% threshold) of the falling part of the normalized and smoothed Gcc
+curve (per spatial location)\textbackslash{} rising\_lower\_ci \&
+uncertainty intervals on the rising transition date, based upon the
+lower CI\textbackslash{} rising\_upper\_ci \& uncertainty intervals on
+the rising transition date, based upon the upper CI\textbackslash{}
+falling\_lower\_ci \& uncertainty intervals on the falling transition
+date, based upon the lower CI\textbackslash{} falling\_upper\_ci \&
+uncertainty intervals on the falling transition date, based upon the
+upper CI\textbackslash* \textbackslash end\{longtable\}
+
+\end{document}

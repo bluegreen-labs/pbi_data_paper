@@ -1,0 +1,278 @@
+\begin{thebibliography}{39}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{\tt #1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{https://doi.org/\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{https://doi.org/\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Arnold(2019)}]{arnold2019}
+Arnold, J.~B.: ggthemes: {Extra} {Themes}, {Scales} and {Geoms} for 'ggplot2',
+  \urlprefix\url{https://CRAN.R-project.org/package=ggthemes}, 2019.
+
+\bibitem[{Auffhammer et~al.(2012)Auffhammer, Ramanathan, and
+  Vincent}]{auffhammer2012}
+Auffhammer, M., Ramanathan, V., and Vincent, J.~R.: Climate change, the
+  monsoon, and rice yield in {India}, Climatic Change, 111, 411--424,
+  \doi{10.1007/s10584-011-0208-4}, iSBN: 0165000915731480, 2012.
+
+\bibitem[{Azzari et~al.(2017)Azzari, Jain, and Lobell}]{azzari2017}
+Azzari, G., Jain, M., and Lobell, D.~B.: Towards fine resolution global maps of
+  crop yields: {Testing} multiple methods and satellites in three countries,
+  Remote Sensing of Environment, 202, 129--141,
+  \doi{10.1016/j.rse.2017.04.014},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0034425717301645},
+  2017.
+
+\bibitem[{Below et~al.(2012)Below, Mutabazi, Kirschke, Franke, Sieber, Siebert,
+  and Tscherning}]{below2012}
+Below, T.~B., Mutabazi, K.~D., Kirschke, D., Franke, C., Sieber, S., Siebert,
+  R., and Tscherning, K.: Can farmers' adaptation to climate change be
+  explained by socio-economic household-level variables?, Global Environmental
+  Change, 22, 223--235, \doi{10.1016/j.gloenvcha.2011.11.012},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.gloenvcha.2011.11.012}, publisher:
+  Elsevier Ltd ISBN: 0959-3780, 2012.
+
+\bibitem[{Berry et~al.(2003)Berry, Sterling, Baker, Spink, and
+  Sparkes}]{berry2003}
+Berry, P., Sterling, M., Baker, C., Spink, J., and Sparkes, D.: A calibrated
+  model of wheat lodging compared with field measurements, Agricultural and
+  Forest Meteorology, 119, 167--180, \doi{10.1016/S0168-1923(03)00139-4},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0168192303001394},
+  2003.
+
+\bibitem[{Burke and Lobell(2017)}]{burke2017}
+Burke, M. and Lobell, D.~B.: Satellite-based assessment of yield variation and
+  its determinants in smallholder {African} systems, Proceedings of the
+  National Academy of Sciences, 114, 2189--2194, \doi{10.1073/pnas.1616919114},
+  \urlprefix\url{http://www.pnas.org/lookup/doi/10.1073/pnas.1616919114}, 2017.
+
+\bibitem[{Carletto et~al.(2015)Carletto, Jolliffe, and Banerjee}]{carletto2015}
+Carletto, C., Jolliffe, D., and Banerjee, R.: From {Tragedy} to {Renaissance}:
+  {Improving} {Agricultural} {Data} for {Better} {Policies}, The Journal of
+  Development Studies, 51, 133--148, \doi{10.1080/00220388.2014.968140},
+  \urlprefix\url{http://www.tandfonline.com/doi/abs/10.1080/00220388.2014.968140},
+  2015.
+
+\bibitem[{Ceballos and Kramer(2017)}]{ceballos2017}
+Ceballos, F. and Kramer, B.: The {Feasibility} of {Picture}-{Based} {Crop}
+  {Insurance} ({PBI}): {Smartphone} {Pictures} for {Affordable} {Crop}
+  {Insurance}, p.~33, 2017.
+
+\bibitem[{Duncan et~al.(2015)Duncan, Dash, and Atkinson}]{duncan2015}
+Duncan, J. M.~A., Dash, J., and Atkinson, P.~M.: The potential of
+  satellite-observed crop phenology to enhance yield gap assessments in
+  smallholder landscapes, Frontiers in Environmental Science, 3,
+  \doi{10.3389/fenvs.2015.00056},
+  \urlprefix\url{http://journal.frontiersin.org/Article/10.3389/fenvs.2015.00056/abstract},
+  2015.
+
+\bibitem[{Farooq et~al.(2011)Farooq, Bramley, Palta, and Siddique}]{farooq2011}
+Farooq, M., Bramley, H., Palta, J.~A., and Siddique, K.~H.: Heat {Stress} in
+  {Wheat} during {Reproductive} and {Grain}-{Filling} {Phases}, Critical
+  Reviews in Plant Sciences, 30, 491--507, \doi{10.1080/07352689.2011.615687},
+  \urlprefix\url{http://www.tandfonline.com/doi/abs/10.1080/07352689.2011.615687},
+  2011.
+
+\bibitem[{Fishman(2016)}]{fishman2016}
+Fishman, R.: More uneven distributions overturn benefits of higher
+  precipitation for crop yields, Environmental Research Letters, 11, 024\,004,
+  \doi{10.1088/1748-9326/11/2/024004},
+  \urlprefix\url{http://stacks.iop.org/1748-9326/11/i=2/a=024004?key=crossref.a7037196d61b044f3c4a809194911d8b},
+  2016.
+
+\bibitem[{Gent and Kiyomoto(1997)}]{gent1997}
+Gent, M. P.~N. and Kiyomoto, R.~K.: Physiological and {Agronomic}
+  {Consequences} of {Rht} {Genes} in {Wheat}, Journal of Crop Production, 1,
+  27--46, \doi{10.1300/J144v01n01_02},
+  \urlprefix\url{http://www.tandfonline.com/doi/abs/10.1300/J144v01n01_02},
+  1997.
+
+\bibitem[{Harvey et~al.(2014)Harvey, Rakotobe, Rao, Dave, Razafimahatratra,
+  Rabarijohn, Rajaofara, Mackinnon, B, Razafimahatratra, Rabarijohn, Rajaofara,
+  and Harvey}]{harvey2014}
+Harvey, C.~A., Rakotobe, Z.~L., Rao, N.~S., Dave, R., Razafimahatratra, H.,
+  Rabarijohn, H., Rajaofara, H., Mackinnon, J.~L., B, P. T. R.~S.,
+  Razafimahatratra, H., Rabarijohn, R.~H., Rajaofara, H., and Harvey, C.~A.:
+  Extreme vulnerability of smallholder farmers to agricultural risks and
+  climate change in {Madagascar} {Extreme} vulnerability of smallholder farmers
+  to agricultural risks and climate change in {Madagascar} {Author} for
+  correspondence :, Philosophical Transactions of the Royal Society B:
+  Biological Sciences, 369, 20130\,089, 2014.
+
+\bibitem[{Hijmans(2019)}]{hijmans2019}
+Hijmans, R.~J.: raster: {Geographic} {Data} {Analysis} and {Modeling},
+  \urlprefix\url{https://CRAN.R-project.org/package=raster}, 2019.
+
+\bibitem[{Hijmans et~al.(2005)Hijmans, Cameron, Parra, Jones, and
+  Jarvis}]{Hijmans2005}
+Hijmans, R.~J., Cameron, S.~E., Parra, J.~L., Jones, P.~G., and Jarvis, A.:
+  Very high resolution interpolated climate surfaces for global land areas,
+  International Journal of Climatology, 25, 1965--1978, \doi{10.1002/joc.1276},
+  \urlprefix\url{http://doi.wiley.com/10.1002/joc.1276}, 2005.
+
+\bibitem[{Hufkens et~al.(2016)Hufkens, Keenan, Flanagan, Scott, Bernacchi, Joo,
+  Brunsell, Verfaillie, and Richardson}]{hufkens2016}
+Hufkens, K., Keenan, T.~F., Flanagan, L.~B., Scott, R.~L., Bernacchi, C.~J.,
+  Joo, E., Brunsell, N.~A., Verfaillie, J., and Richardson, A.~D.: Productivity
+  of {North} {American} grasslands is increased under future climate scenarios
+  despite rising aridity, Nature Climate Change, \doi{10.1038/nclimate2942},
+  \urlprefix\url{http://www.nature.com/doifinder/10.1038/nclimate2942}, 2016.
+
+\bibitem[{Hufkens et~al.(2019)Hufkens, Melaas, Mann, Foster, Ceballos, Robles,
+  and Kramer}]{hufkens2019}
+Hufkens, K., Melaas, E.~K., Mann, M.~L., Foster, T., Ceballos, F., Robles, M.,
+  and Kramer, B.: Monitoring crop phenology using a smartphone based
+  near-surface remote sensing approach, Agricultural and Forest Meteorology,
+  265, 327--337, \doi{10.1016/j.agrformet.2018.11.002},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0168192318303484},
+  2019.
+
+\bibitem[{{IFAD} and {UNEP}(2013)}]{ifad2013}
+{IFAD} and {UNEP}: Smallholders, food security and the environment, Rome:
+  International Fund for Agricultural Development, p.~54,
+  \urlprefix\url{http://scholar.google.com/scholar?hl=en&btnG=Search&q=intitle:Smallholders,+food+security,+and+the+environment#0},
+  2013.
+
+\bibitem[{Jain et~al.(2015)Jain, Naeem, Orlove, Modi, and DeFries}]{jain2015}
+Jain, M., Naeem, S., Orlove, B., Modi, V., and DeFries, R.~S.: Understanding
+  the causes and consequences of differential decision-making in adaptation
+  research: {Adapting} to a delayed monsoon onset in {Gujarat}, {India}, Global
+  Environmental Change, 31, 98--109, \doi{10.1016/j.gloenvcha.2014.12.008},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.gloenvcha.2014.12.008}, publisher:
+  Elsevier Ltd, 2015.
+
+\bibitem[{Jain et~al.(2017)Jain, Singh, Srivastava, Malik, McDonald, and
+  Lobell}]{jain2017}
+Jain, M., Singh, B., Srivastava, A. A.~K., Malik, R.~K., McDonald, A.~J., and
+  Lobell, D.~B.: Using satellite data to identify the causes of and potential
+  solutions for yield gaps in {India}’s {Wheat} {Belt}, Environmental
+  Research Letters, 12, 094\,011, \doi{10.1088/1748-9326/aa8228},
+  \urlprefix\url{http://stacks.iop.org/1748-9326/12/i=9/a=094011?key=crossref.4432a2f0dcc49b6d08239f802d84e419},
+  2017.
+
+\bibitem[{Killick et~al.(2011)Killick, Fearnhead, and Eckley}]{killick2011}
+Killick, R., Fearnhead, P., and Eckley, I.~A.: Optimal detection of
+  changepoints with a linear computational cost, Journal of the American
+  Statistical Association, 1459, \doi{10.1080/01621459.2012.737745},
+  \urlprefix\url{http://arxiv.org/abs/1101.1438%0Ahttp://dx.doi.org/10.1080/01621459.2012.737745},
+  arXiv: 1101.1438 ISBN: 0162-1459{\textbackslash}r1537-274X, 2011.
+
+\bibitem[{Kumar et~al.(2018)Kumar, Vaid, and Mittal}]{kumar2018}
+Kumar, R., Vaid, U., and Mittal, S.: Water {Crisis}: {Issues} and {Challenges}
+  in {Punjab}, in: Water {Resources} {Management}, edited by Singh, V.~P.,
+  Yadav, S., and Yadava, R.~N., vol.~78, pp. 93--103, Springer Singapore,
+  Singapore, \doi{10.1007/978-981-10-5711-3_7},
+  \urlprefix\url{http://link.springer.com/10.1007/978-981-10-5711-3_7}, 2018.
+
+\bibitem[{Lobell et~al.(2011)Lobell, Schlenker, and Costa-Roberts}]{lobell2011}
+Lobell, D.~B., Schlenker, W., and Costa-Roberts, J.: Climate {Trends} and
+  {Global} {Crop} {Production} {Since} 1980, Science, 333, 616--620,
+  \doi{10.1126/science.1204531},
+  \urlprefix\url{http://www.sciencemag.org/cgi/doi/10.1126/science.1204531},
+  2011.
+
+\bibitem[{Lowder et~al.(2016)Lowder, Skoet, and Raney}]{lowder2016}
+Lowder, S.~K., Skoet, J., and Raney, T.: The {Number}, {Size}, and
+  {Distribution} of {Farms}, {Smallholder} {Farms}, and {Family} {Farms}
+  {Worldwide}, World Development, 87, 16--29,
+  \doi{10.1016/j.worlddev.2015.10.041},
+  \urlprefix\url{http://dx.doi.org/10.1016/j.worlddev.2015.10.041}, iSBN:
+  0305-750X, 2016.
+
+\bibitem[{Mann and Warner(2017)}]{mann2017}
+Mann, M.~L. and Warner, J.~M.: Ethiopian wheat yield and yield gap estimation:
+  {A} spatially explicit small area integrated data approach, Field Crops
+  Research, 201, 60--74, \doi{10.1016/j.fcr.2016.10.014},
+  \urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0378429016305238},
+  2017.
+
+\bibitem[{Morton(2007)}]{morton2007}
+Morton, J.~F.: The impact of climate change on smallholder and subsistence
+  agriculture, Proceedings of the National Academy of Sciences, 104,
+  19\,680--19\,685, \doi{10.1073/pnas.0701855104},
+  \urlprefix\url{http://www.pnas.org/cgi/doi/10.1073/pnas.0701855104}, arXiv:
+  1011.1669v3 ISBN: 1968019685, 2007.
+
+\bibitem[{Motohka et~al.(2010)Motohka, Nasahara, Oguma, and
+  Tsuchida}]{motohka2010}
+Motohka, T., Nasahara, K.~N., Oguma, H., and Tsuchida, S.: Applicability of
+  {Green}-{Red} {Vegetation} {Index} for {Remote} {Sensing} of {Vegetation}
+  {Phenology}, Remote Sensing, 2, 2369--2387, \doi{10.3390/rs2102369},
+  \urlprefix\url{http://www.mdpi.com/2072-4292/2/10/2369}, 2010.
+
+\bibitem[{Pebesma(2018)}]{pebesma2018}
+Pebesma, E.: Simple {Features} for {R}: {Standardized} {Support} for {Spatial}
+  {Vector} {Data}, The R Journal, 10, 439--446, \doi{10.32614/RJ-2018-009},
+  \urlprefix\url{https://doi.org/10.32614/RJ-2018-009}, 2018.
+
+\bibitem[{{R Core Team}(2019)}]{rcoreteam2019}
+{R Core Team}: R: {A} {Language} and {Environment} for {Statistical}
+  {Computing}, R Foundation for Statistical Computing, Vienna, Austria,
+  \urlprefix\url{https://www.R-project.org/}, 2019.
+
+\bibitem[{Richardson et~al.(2018)Richardson, Hufkens, Milliman, Aubrecht, Chen,
+  Gray, Johnston, Keenan, Klosterman, Kosmala, Melaas, Friedl, and
+  Frolking}]{richardson2018}
+Richardson, A.~D., Hufkens, K., Milliman, T., Aubrecht, D.~M., Chen, M., Gray,
+  J.~M., Johnston, M.~R., Keenan, T.~F., Klosterman, S.~T., Kosmala, M.,
+  Melaas, E.~K., Friedl, M.~A., and Frolking, S.: Tracking vegetation phenology
+  across diverse {North} {American} biomes using {PhenoCam} imagery, Scientific
+  Data, 5, \doi{10.1038/sdata.2018.28},
+  \urlprefix\url{http://www.nature.com/articles/sdata201828}, 2018.
+
+\bibitem[{Saini and Aspinall(1982)}]{saini1982}
+Saini, H.~S. and Aspinall, D.: Abnormal {Sporogenesis} in {Wheat} ({Triticum}
+  aestivum {L}.) {Induced} by {Short} {Periods} of {High} {Temperature}, Annals
+  of Botany, 49, 835--846, \doi{10.1093/oxfordjournals.aob.a086310},
+  \urlprefix\url{https://academic.oup.com/aob/article-lookup/doi/10.1093/oxfordjournals.aob.a086310},
+  1982.
+
+\bibitem[{Sonnentag et~al.(2012)Sonnentag, Hufkens, Teshera-Sterne, Young,
+  Friedl, Braswell, Milliman, O’Keefe, and Richardson}]{Sonnentag2012}
+Sonnentag, O., Hufkens, K., Teshera-Sterne, C., Young, A.~M., Friedl, M.,
+  Braswell, B.~H., Milliman, T., O’Keefe, J., and Richardson, A.~D.: Digital
+  repeat photography for phenological research in forest ecosystems,
+  Agricultural and Forest Meteorology, 152, 159--177,
+  \doi{10.1016/j.agrformet.2011.09.009},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0168192311002851},
+  2012.
+
+\bibitem[{South(2017)}]{south2017}
+South, A.: rnaturalearth: {World} {Map} {Data} from {Natural} {Earth},
+  \urlprefix\url{https://CRAN.R-project.org/package=rnaturalearth}, 2017.
+
+\bibitem[{Vera et~al.(2012)Vera, Duguid, Fox, Rashid, Dribnenki, and
+  Clarke}]{vera2012}
+Vera, C.~L., Duguid, S.~D., Fox, S.~L., Rashid, K.~Y., Dribnenki, J. C.~P., and
+  Clarke, F.~R.: Short {Communication}: {Comparative} effect of lodging on seed
+  yield of flax and wheat, Canadian Journal of Plant Science, 92, 39--43,
+  \doi{10.4141/cjps2011-031},
+  \urlprefix\url{http://www.nrcresearchpress.com/doi/10.4141/cjps2011-031},
+  2012.
+
+\bibitem[{Wickham(2014)}]{wickham2014}
+Wickham, H.: Tidy {Data}, Journal of Statistical Software, 59, 2014.
+
+\bibitem[{Wickham(2017)}]{wickham2017}
+Wickham, H.: tidyverse: {Easily} {Install} and {Load} the '{Tidyverse}',
+  \urlprefix\url{https://CRAN.R-project.org/package=tidyverse}, 2017.
+
+\bibitem[{Wickham(2018)}]{wickham2018}
+Wickham, H.: scales: {Scale} {Functions} for {Visualization},
+  \urlprefix\url{https://CRAN.R-project.org/package=scales}, 2018.
+
+\bibitem[{Wilke(2019)}]{wilke2019}
+Wilke, C.~O.: cowplot: {Streamlined} {Plot} {Theme} and {Plot} {Annotations}
+  for 'ggplot2', \urlprefix\url{https://CRAN.R-project.org/package=cowplot},
+  2019.
+
+\bibitem[{Zadoks et~al.(1974)Zadoks, Chang, and Konzak}]{zadoks1974}
+Zadoks, J.~C., Chang, T.~T., and Konzak, C.~F.: A decimal code for the growth
+  stages of cereals, Weed Research, 14, 415--421,
+  \doi{10.1111/j.1365-3180.1974.tb01084.x},
+  \urlprefix\url{http://doi.wiley.com/10.1111/j.1365-3180.1974.tb01084.x},
+  1974.
+
+\end{thebibliography}

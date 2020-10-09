@@ -86,8 +86,7 @@ Insurance crop monitoring dataset}
 \Author[2]{Francisco}{Ceballos}
 \Author[3]{Timothy}{Foster}
 \Author[4]{Michael}{Mann}
-\Author[2]{Miguel}{Robles}
-\Author[5]{Mann Singh}{Toor}
+\Author[5]{Miguel}{Robles}
 \Author[2]{Berber}{Kramer}
 
 
@@ -95,11 +94,11 @@ Insurance crop monitoring dataset}
 University, Belgium}
 \affil[2]{Markets, Trade, and Institutions Division, International Food Policy
 Research Institute, Washington DC, USA}
-\affil[3]{School of Mechanical, Aerospace and Civil Engineering, University of
+\affil[3]{Department of Mechanical, Aerospace and Civil Engineering, University of
 Manchester, Manchester, UK}
 \affil[4]{Department of Geography, The George Washington University, Washington
 DC, USA}
-\affil[5]{Department of X}
+\affil[5]{Department of Finance, Universidad del Pacifico, Lima, Peru}
 
 %% The [] brackets identify the author with the corresponding affiliation. 1, 2, 3, etc. should be inserted.
 
@@ -589,16 +588,16 @@ season \citep{hufkens2019}.
 
 There are slight differences between the two growing seasons when
 comparing the phenology during the early season development (rising part
-of the Gcc curve). Here, the first season is on average a month early
-compared to the second growing season, reflecting differences in local
-crop management practices, with threshold dates reported at the 27th of
-December and the 24th of January respectively. Despite the difference in
-the timing of wheat growth between both growing season the variability
-within both datasets is similarly large up to 18.5 and 19.9 days, for
-the first and second season respectively. Using either the first image
-acquisition (a proxy for the sowing date) or the first sowing dates, for
-the first and second season respectively, we observe a difference of up
-to a month in the sowing of crops.
+of the Gcc curve, Figure 4). Here, the first season is on average a
+month early compared to the second growing season, reflecting
+differences in local crop management practices, with threshold dates
+reported at the 27th of December and the 24th of January respectively.
+Despite the difference in the timing of wheat growth between both
+growing season the variability within both datasets is similarly large
+up to 18.5 and 19.9 days, for the first and second season respectively.
+Using either the first image acquisition (a proxy for the sowing date)
+or the first sowing dates, for the first and second season respectively,
+we observe a difference of up to a month in the sowing of crops.
 
 \begin{figure}
 \includegraphics[width=1\linewidth]{./figures/summary_time_series_2} \caption{Average normalized and smoothed time series of vegetation greenness (Gcc) by spatial unit for both growing seasons, showing the difference in average timing of crop development. Crop development is shown relative to the first of January of the growing season. Only spatial locations with more than 150 image acquisitions are shown.}\label{fig:unnamed-chunk-5}
@@ -641,8 +640,8 @@ production risks resulting from climate variability and change.
 
 
 \codeavailability{All analysis code is available as an R \citep{rcoreteam2019} project
-(https://github.com/khufkens/pbi\_data\_descriptor). The analysis relied
-heavily on the `raster' \citep{hijmans2019} package, while
+(https://github.com/bluegreen-labs/pbi\_data\_paper). The analysis
+relied heavily on the `raster' \citep{hijmans2019} package, while
 post-processing and plotting was facilitated by the `tidyverse'
 ecosystem \citep{wickham2017}, `ggthemes' \citep{arnold2019}, `scales'
 \citep{wickham2018} and `cowplot' \citep{wilke2019}. Additional plotting
@@ -652,7 +651,10 @@ grateful for the contributions to the scientific community by the
 developers of these packages.} %% use this section when having only software code available
 
 \dataavailability{Data is available at the IFPRI data portal
-\href{https://doi.org/10.7910/DVN/DBAFZY}{(https://doi.org/10.7910/DVN/DBAFZY)}.} %% use this section when having only data sets available
+\href{https://doi.org/10.7910/DVN/DBAFZY}{(https://doi.org/10.7910/DVN/DBAFZY)}.
+For review purposes only the data will also be available at a temporary
+dropbox link
+(https://www.dropbox.com/sh/ltg14m52rtltg08/AACsyVGDz68VetmkU2HjWu0Ea?dl=0).} %% use this section when having only data sets available
 
 
 
@@ -666,7 +668,8 @@ developers of these packages.} %% use this section when having only software cod
 \authorcontribution{KH outlined image acquisition protocols and wrote the processing
 software, and a first draft of the manuscript. BK acquired funding and
 leads the PBI project. FC, BK and MT coordinated the data collection.
-FC, TF and MM provided key input during manuscript review.} %% optional section
+FC, TF and MM provided key input during manuscript review. FC and BK
+coordinated the data collection.} %% optional section
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \competinginterests{The authors declare no competing interests.} %% this section is mandatory even if you declare that no competing interests are present
@@ -686,7 +689,8 @@ acknowledges support from the National Science Foundation's Macro-system
 Biology Program (award EF-1065029). This paper has not gone through
 IFPRI's standard peer-review procedure. The opinions expressed here
 belong to the authors, and do not necessarily reflect those of CCAFS,
-PIM, 3ie, NERC, IFPRI, or CGIAR.
+PIM, 3ie, NERC, IFPRI, or CGIAR. We thank Dr.~Mann Singh Toor for his
+support during the field trials.
 \end{acknowledgements}
 
 %% REFERENCES

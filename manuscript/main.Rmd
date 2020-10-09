@@ -17,9 +17,6 @@ author:
     affiliation: 4 
   - given_name: Miguel
     surname: Robles
-    affiliation: 2
-  - given_name: Mann Singh
-    surname: Toor
     affiliation: 5
   - given_name: Berber
     surname: Kramer
@@ -32,11 +29,11 @@ affiliation:
   - code: 2
     address: Markets, Trade, and Institutions Division, International Food Policy Research Institute, Washington DC, USA
   - code: 3
-    address: School of Mechanical, Aerospace and Civil Engineering, University of Manchester, Manchester, UK
+    address: Department of Mechanical, Aerospace and Civil Engineering, University of Manchester, Manchester, UK
   - code: 4
     address: Department of Geography, The George Washington University, Washington DC, USA
   - code: 5
-    address: Department of X
+    address: Department of Finance, Universidad del Pacifico, Lima, Peru
 
 abstract: |
   We present a consistently processed dataset of (~20K) near-surface remote sensing crop images acquired using inexpensive smartphones of 1685 smallholder farmers fields in northwest India. Monitoring crop growth and disturbances, for instance for crop insurance applications, is critical for targeting interventions to support farmers to manage and mitigate production risks. Presented smartphone images monitored winter wheat growth and includes meta-data, either manually or automatically derived, to quantify crop greenness, phenology and damage events as well as management practices.
@@ -51,12 +48,12 @@ competinginterests: |
 algorithms: false
 copyrightstatement: |
 availability:
-  code: All analysis code is available as an R [@rcoreteam2019] project (https://github.com/khufkens/pbi_data_descriptor). The analysis relied heavily on the 'raster' [@hijmans2019] package, while post-processing and plotting was facilitated by the 'tidyverse' ecosystem [@wickham2017], 'ggthemes' [@arnold2019], 'scales' [@wickham2018] and 'cowplot' [@wilke2019]. Additional plotting elements were formatted or provided by 'sf' [@pebesma2018] and 'rnaturalearth' [@south2017] packages, respectivelly. We are grateful for the contributions to the scientific community by the developers of these packages.
-  data: Data is available at the IFPRI data portal [(https://doi.org/10.7910/DVN/DBAFZY)](https://doi.org/10.7910/DVN/DBAFZY).
+  code: All analysis code is available as an R [@rcoreteam2019] project (https://github.com/bluegreen-labs/pbi_data_paper). The analysis relied heavily on the 'raster' [@hijmans2019] package, while post-processing and plotting was facilitated by the 'tidyverse' ecosystem [@wickham2017], 'ggthemes' [@arnold2019], 'scales' [@wickham2018] and 'cowplot' [@wilke2019]. Additional plotting elements were formatted or provided by 'sf' [@pebesma2018] and 'rnaturalearth' [@south2017] packages, respectivelly. We are grateful for the contributions to the scientific community by the developers of these packages.
+  data: Data is available at the IFPRI data portal [(https://doi.org/10.7910/DVN/DBAFZY)](https://doi.org/10.7910/DVN/DBAFZY). For review purposes only the data will also be available at a temporary dropbox link (https://www.dropbox.com/sh/ltg14m52rtltg08/AACsyVGDz68VetmkU2HjWu0Ea?dl=0).
 
-authorcontribution: KH outlined image acquisition protocols and wrote the processing software, and a first draft of the manuscript. BK acquired funding and leads the PBI project. FC, BK and MT coordinated the data collection. FC, TF and MM provided key input during manuscript review.
+authorcontribution: KH outlined image acquisition protocols and wrote the processing software, and a first draft of the manuscript. BK acquired funding and leads the PBI project. FC, BK and MT coordinated the data collection. FC, TF and MM provided key input during manuscript review. FC and BK coordinated the data collection.
 
-acknowledgements: This work was undertaken as part of the CGIAR Research Program on Policies, Institutions, and Markets (PIM) led by the International Food Policy Research Institute (IFPRI). Funding support for this study was provided by the CGIAR Research Programs on Climate Change and Agricultural Food Security (CCAFS) and Policies, Institutions, and Markets (PIM); the CGIAR Platform for Big Data in Agriculture; 3ie Award No. TW13-1038; and NERC-ESRC-DFID Award No. NE/R014094/1. KH acknowledges support from the National Science Foundation’s Macro-system Biology Program (award EF-1065029). This paper has not gone through IFPRI’s standard peer-review procedure. The opinions expressed here belong to the authors, and do not necessarily reflect those of CCAFS, PIM, 3ie, NERC, IFPRI, or CGIAR.
+acknowledgements: This work was undertaken as part of the CGIAR Research Program on Policies, Institutions, and Markets (PIM) led by the International Food Policy Research Institute (IFPRI). Funding support for this study was provided by the CGIAR Research Programs on Climate Change and Agricultural Food Security (CCAFS) and Policies, Institutions, and Markets (PIM); the CGIAR Platform for Big Data in Agriculture; 3ie Award No. TW13-1038; and NERC-ESRC-DFID Award No. NE/R014094/1. KH acknowledges support from the National Science Foundation’s Macro-system Biology Program (award EF-1065029). This paper has not gone through IFPRI’s standard peer-review procedure. The opinions expressed here belong to the authors, and do not necessarily reflect those of CCAFS, PIM, 3ie, NERC, IFPRI, or CGIAR. We thank Dr. Mann Singh Toor for his support during the field trials.
 
 output:
   rticles::copernicus_article: default
@@ -212,7 +209,7 @@ Similarly, it is shown that both the sowing dates self-reported during the secon
 knitr::include_graphics("./figures/summary_time_series.png")
 ```
 
-There are slight differences between the two growing seasons when comparing the phenology during the early season development (rising part of the Gcc curve). Here, the first season is on average a month early compared to the second growing season, reflecting differences in local crop management practices, with threshold dates reported at the 27th of December and the 24th of January respectively. Despite the difference in the timing of wheat growth between both growing season the variability within both datasets is similarly large up to 18.5 and 19.9 days, for the first and second season respectively. Using either the first image acquisition (a proxy for the sowing date) or the first sowing dates, for the first and second season respectively, we observe a difference of up to a month in the sowing of crops.
+There are slight differences between the two growing seasons when comparing the phenology during the early season development (rising part of the Gcc curve, Figure 4). Here, the first season is on average a month early compared to the second growing season, reflecting differences in local crop management practices, with threshold dates reported at the 27th of December and the 24th of January respectively. Despite the difference in the timing of wheat growth between both growing season the variability within both datasets is similarly large up to 18.5 and 19.9 days, for the first and second season respectively. Using either the first image acquisition (a proxy for the sowing date) or the first sowing dates, for the first and second season respectively, we observe a difference of up to a month in the sowing of crops.
 
 
 ```{r, out.width = "100%", echo = FALSE, fig.cap = "Average normalized and smoothed time series of vegetation greenness (Gcc) by spatial unit for both growing seasons, showing the difference in average timing of crop development. Crop development is shown relative to the first of January of the growing season. Only spatial locations with more than 150 image acquisitions are shown."}

@@ -4,6 +4,8 @@ library("viridis")
 library("sf")
 library("raster")
 library("ggmap")
+library("rnaturalearth")
+library("patchwork")
 
 #---- set map themes ----
 
@@ -185,7 +187,8 @@ sowing_dates_map <- ggmap(terrain) +
   labs(x = NULL, 
        y = NULL, 
        title = "B.", 
-       subtitle = "difference in self-reported sowing dates") +
+       subtitle = "difference in self-reported sowing dates",
+       caption = "Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.") +
   scale_fill_viridis(
     #limits = c(0, 15),
     option = "magma", 
